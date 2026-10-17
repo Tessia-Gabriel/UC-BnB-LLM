@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "dependencies": {
+    "llm4branch": {
+      "repository": "https://github.com/hzn18/LLM4Branch.git",
+      "commit": "e001d8c9f9f9b7d414922526c8d958a2cbf62462",
+      "path": "third_party/llm4branch",
+      "license": "Apache-2.0"
+    },
+    "llm4branch_ecole": {
+      "repository": "https://github.com/hzn18/LLM4Branch-ecole.git",
+      "commit": "debd0e44dc5c5c200fcb3845d511cd0729baaa3b",
+      "path": "third_party/llm4branch-ecole",
+      "license": "BSD-3-Clause"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "frozen_on": "2026-09-19",
+  "upstream_base_url": "https://axavier.org/UnitCommitment.jl/0.3/instances/",
+  "scope": "single-bus thermal UC, 24 hourly periods, spinning reserve and unit operating limits",
+  "splits": {
+    "train": [
+      "or-lib_200_0_1_w.json.gz",
+      "or-lib_200_0_2_w.json.gz",
+      "or-lib_200_0_3_w.json.gz",
+      "or-lib_200_0_4_w.json.gz",
+      "or-lib_200_0_5_w.json.gz",
+      "or-lib_200_0_6_w.json.gz",
+      "or-lib_200_0_7_w.json.gz",
+      "or-lib_200_0_8_w.json.gz"
+    ],
+    "validation": [
+      "or-lib_200_0_9_w.json.gz",
+      "or-lib_200_0_10_w.json.gz"
+    ],
+    "test_same_scale": [
+      "or-lib_200_0_11_w.json.gz",
+      "or-lib_200_0_12_w.json.gz"
+    ],
+    "test_large_scale": [
+      "tejada19_UC_24h_214g.json.gz",
+      "tejada19_UC_24h_250g.json.gz",
+      "tejada19_UC_24h_290g.json.gz",
+      "tejada19_UC_24h_480g.json.gz",
+      "tejada19_UC_24h_505g.json.gz",
+      "tejada19_UC_24h_623g.json.gz",
+      "tejada19_UC_24h_647g.json.gz"
+    ],
+    "ood": [
+      "tejada19_UC_24h_836g.json.gz",
+      "tejada19_UC_24h_850g.json.gz",
+      "tejada19_UC_24h_918g.json.gz",
+      "tejada19_UC_24h_931g.json.gz",
+      "tejada19_UC_24h_940g.json.gz",
+      "tejada19_UC_24h_957g.json.gz",
+      "tejada19_UC_24h_959g.json.gz",
+      "tejada19_UC_24h_1069g.json.gz",
+      "tejada19_UC_24h_1130g.json.gz"
+    ]
+  },
+  "sha256": {
+    "or-lib_200_0_1_w.json.gz": "14015196a8cd3d572b24dd4e6a41336ee91e481e8393b7f4a8071175468e3b8e",
+    "or-lib_200_0_2_w.json.gz": "ff0e6278143d0868b2cbc72d09aadc366b755104fc8f3be1cfabb052c9152e74",
+    "or-lib_200_0_3_w.json.gz": "646d17034f0fe56a4a2a642427bfc2f1fde8e4327a6ff7624fdbf90a33bd6c3e",
+    "or-lib_200_0_4_w.json.gz": "cc224489911761f4c06ff5c7c79f94862fe79c00ed4b1e7c53d6a15ed518f67e",
+    "or-lib_200_0_5_w.json.gz": "ca7a48cfe47b8bb9431396963db4b8e2a635063ddcad8ce0df978c84043701f1",
+    "or-lib_200_0_6_w.json.gz": "9d12fd2612643ab1cf0295a3ba9cec2a39b10c5ae45e40327152cc7d92fd122d",
+    "or-lib_200_0_7_w.json.gz": "74c04db64c6ebc40fc4467ac8b0c8b43f25a0d9739ff6aed20c7d75b2f1c4259",
+    "or-lib_200_0_8_w.json.gz": "35953505f06b26d648001205476f8440f269682dbefdbcdfa634b036b36ac075",
+    "or-lib_200_0_9_w.json.gz": "033df23b7b10f5c1f8bb7c8bbe3956b70024f515100020f1f07644686053e7f9",
+    "or-lib_200_0_10_w.json.gz": "10ad0889c98fd1dfc70bab5538c04b05ad23406d5c0e94214acdfb6575e94124",
+    "or-lib_200_0_11_w.json.gz": "e088bd1b29dc087505d7af8f36e50d459d4fdab5733d91ac8c7b855d226c434d",
+    "or-lib_200_0_12_w.json.gz": "0accfef24e6f9cd4f1669c2121abf1cfeee1fa6915eecaade3a5c4437a7b7544",
+    "tejada19_UC_24h_214g.json.gz": "05de26ee47c585d19dfcbf560db954de6cd7a62aa4d77dd842e3306e6096144a",
+    "tejada19_UC_24h_250g.json.gz": "3c76fe7fa6d76c1b16ca8f844602c73fa8cd0414df07f3bb9dc0782264587b91",
+    "tejada19_UC_24h_290g.json.gz": "ad850eda9e15f95d86d2a488a97336b2ce61583b77f2d6300e73175699732b65",
+    "tejada19_UC_24h_480g.json.gz": "c9e47f2795a2f859019b75405482fb8e02203456ace8732cf011a2f7eba1ec68",
+    "tejada19_UC_24h_505g.json.gz": "a83faaa392185580c935ca10f42bf045ed933986fcb268242c87219822dc5532",
+    "tejada19_UC_24h_623g.json.gz": "1487f994c906253e14b3f0d17c688f6fd981b0f20e5dc7f6d1c0fb13af4b8664",
+    "tejada19_UC_24h_647g.json.gz": "664fef60f892df3c32a6d46f9c17624798bccff5221668f28389f36178c013d6",
+    "tejada19_UC_24h_836g.json.gz": "9166ee1d51d2788adcb059557ca0d140e6a6d58c682d77c7c7e8801472a18606",
+    "tejada19_UC_24h_850g.json.gz": "fc364675f558c1bc22510c96b0aa6a0ecc9e5c8b417658245260225517cdb5e2",
+    "tejada19_UC_24h_918g.json.gz": "c3664b211a7aeaf80f1d10e07423b305efeb7cba90a74c4e1aa7b4b2b38e8c08",
+    "tejada19_UC_24h_931g.json.gz": "6ee6df8be649814ef5ed66a58b10d3bfa9e40d839a1838b14da01154d0dd18b9",
+    "tejada19_UC_24h_940g.json.gz": "b63f50291967ab17801480cb32c2b000874bf3043c108b3adc0d346ce421fe61",
+    "tejada19_UC_24h_957g.json.gz": "8bcc6ca6094abd5fa5bb40fa033e3a5c57465b3af160ec2aeb8163c681e57e6b",
+    "tejada19_UC_24h_959g.json.gz": "f89f97d3ed90bf7a6d7cca8c16b92516a5e4836cabe50f2701bfc346e7499262",
+    "tejada19_UC_24h_1069g.json.gz": "da33074ce3bf80d31b7afe06b1a1d58785f1bfc64e7f48a85914cbadb39f5d58",
+    "tejada19_UC_24h_1130g.json.gz": "722ef8c541690404c74d8273d3f247d029e6b07316d1e28cc182d6de6c3dad1b"
+  }
+}

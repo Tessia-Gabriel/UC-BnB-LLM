@@ -1,0 +1,5 @@
+mock:
+  model_name: phase-minus1-mock
+  api_base: http://127.0.0.1:18080/v1
+  api_key: phase-minus1-no-secret
+

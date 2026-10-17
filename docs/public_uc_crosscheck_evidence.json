@@ -1,0 +1,35 @@
+{
+  "scope": "UnitCommitment.jl v0.3 default formulation versus project ucjl03 formulation",
+  "settings": {
+    "threads": 1,
+    "load_curtailment_fixed_to_zero": true,
+    "official_solver": "HiGHS 1.25.4",
+    "project_solver": "SCIP 8.1.0"
+  },
+  "instances": [
+    {
+      "name": "or-lib_200_0_1_w.json.gz",
+      "units": 200,
+      "hours": 24,
+      "official_status_at_60s": "TIME_LIMIT",
+      "official_objective": 35875463.302800745,
+      "official_gap": 0.02001212472050992,
+      "official_solution_objective_recomputed_by_project": 35875463.30280125,
+      "official_schedule_fixed_in_project_objective": 35875463.30280095,
+      "project_solution_accepted_by_official_validator": true,
+      "project_schedule_fixed_in_official_model": "OPTIMAL"
+    },
+    {
+      "name": "tejada19_UC_24h_214g.json.gz",
+      "units": 214,
+      "hours": 24,
+      "official_status": "OPTIMAL",
+      "official_objective": 3250183.6003883556,
+      "project_status": "optimal",
+      "project_objective": 3250183.6003883462,
+      "official_solution_objective_recomputed_by_project": 3250183.6003883877,
+      "official_schedule_fixed_in_project_objective": 3250183.6003883434,
+      "project_solution_accepted_by_official_validator": true
+    }
+  ]
+}

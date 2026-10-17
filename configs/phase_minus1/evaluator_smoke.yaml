@@ -1,0 +1,14 @@
+target: nodes
+train_seed: 666666
+valid_seed: 666666
+train_num: 1
+valid_num: 1
+max_workers: 1
+
+setcover:
+  stage1_timeout: 120
+  stage2_timeout: 120
+  rpb: false
+  parameter_opt: false
+  n_calls: 3
+  n_initial: 2

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ucbranch"
+version = "0.1.0"
+description = "UC variable-only baseline with pinned LLM4Branch infrastructure"
+requires-python = ">=3.10"
+dependencies = ["numpy<2", "pyscipopt>=4,<5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

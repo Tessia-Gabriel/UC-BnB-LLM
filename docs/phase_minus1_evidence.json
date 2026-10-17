@@ -1,0 +1,46 @@
+{
+  "run_date": "2026-09-12",
+  "platform": "Ubuntu 24.04 x86_64",
+  "upstream": {
+    "llm4branch_commit": "e001d8c9f9f9b7d414922526c8d958a2cbf62462",
+    "llm4branch_ecole_commit": "debd0e44dc5c5c200fcb3845d511cd0729baaa3b"
+  },
+  "environment": {
+    "python": "3.10.14",
+    "ecole": "0.8.1",
+    "scip": "8.1.0",
+    "soplex": "6.0.4",
+    "pyscipopt": "4.4.0",
+    "numpy": "1.26.4"
+  },
+  "tests": {
+    "upstream_tracked_sources_clean": true,
+    "ecole_tests": "2 passed",
+    "official_setcover_initial_program": {
+      "validity": true,
+      "seed": 666666,
+      "nodes": 363,
+      "combined_score": 3.3515942149193667
+    },
+    "short_search": {
+      "provider": "deterministic OpenAI-compatible mock",
+      "real_solver_feedback": true,
+      "checkpoint_1_programs": 2,
+      "best_nodes": 111,
+      "best_combined_score": 4.511849017779065
+    },
+    "resume": {
+      "from_iteration": 1,
+      "to_iteration": 2,
+      "checkpoint_2_programs": 3,
+      "jsonl_exported_programs": 3
+    },
+    "parameter_optimization": {
+      "validity": true,
+      "n_initial": 2,
+      "n_calls": 3,
+      "returned_params": [0.5]
+    }
+  },
+  "interpretation": "Smoke metrics validate integration only; they are not research performance results."
+}

@@ -1,0 +1,34 @@
+name: llm4branch-phase-minus1
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.14
+  - numpy=1.26.4
+  - scip=8.1.0
+  - pyscipopt=4.4.0
+  - scikit-optimize=0.10.2
+  - psutil=7.2.2
+  - pyyaml=6.0.3
+  - openai=3.6.0
+  - tqdm=4.70.0
+  - flask=3.1.3
+  - pytest=9.1.1
+  - make=4.4.1
+  - cmake=3.22.3
+  - ninja=1.13.2
+  - cxx-compiler=2.0.0
+  - fortran-compiler=2.0.0
+  - liblapack
+  - tbb
+  - cliquer
+  - openblas
+  - gsl
+  - patchelf
+  - scikit-build=0.19.0
+  - fmt
+  - xtensor
+  - xsimd
+  - pybind11
+  - xtensor-python
+  - pip
+

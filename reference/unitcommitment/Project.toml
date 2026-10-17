@@ -1,0 +1,8 @@
+[deps]
+HiGHS = "87dc4568-4c63-4d18-b0c0-bb2238e4078b"
+UnitCommitment = "64606440-39ea-11e9-0f29-3303a1d3d877"
+
+[compat]
+HiGHS = "=1.25.4"
+UnitCommitment = "=0.3.0"
+julia = "1.10"
